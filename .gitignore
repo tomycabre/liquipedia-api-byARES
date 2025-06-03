@@ -1,1 +1,7 @@
-
+__pycache__
+# Go to ARES > config-template.py and change the name to config.py
+config.py
+# ! DO NOT UPLOAD config-template.py or config.py TO ANY REPOSITORY, THIS WILL LEAK YOUR PRIVATE API, EMAIL, IP (if not using localhost), AND DATABASE LOGIN INFORMATION.
+# ! Project ARES is not responsible if your data was leaked by this project, you will be the one responsible for making config-template.py or config.py private before uploading it to any website.
+venv
+# Your virual environment to run the project

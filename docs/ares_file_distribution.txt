@@ -1,0 +1,33 @@
+ARES/
+├── .github/                # For GitHub-specific files (e.g., workflows for CI/CD later)
+│   └── workflows/
+├── data/                   # For storing DB, example CSVs, or small static data files if any
+├── docs/                   # For project documentation (e.g., SQL queries, setup instructions)
+├── scripts/                # Main directory for the data fetching and processing scripts
+│   ├── lib/                # Library modules with shared utilities
+│   │   ├── __init__.py     # Makes 'lib' a Python package
+│   │   ├── api_utils.py    # For Liquipedia API v3 interaction
+│   │   └── db_utils.py     # For PostgreSQL database interactions
+│   │
+|   ├── utils/
+|   |   └── cleanup_test_data.py     # For cleaning db_utils test data
+|   |
+│   ├── 00_setup_database.py
+│   ├── 01_fetch_games.py
+│   ├── 02_fetch_teams.py
+│   ├── 03_fetch_players.py
+│   ├── 04_fetch_tournaments.py
+│   ├── 05_fetch_team_rosters.py
+│   ├── 05.1_clean_disbanded_teams.sql
+│   ├── 06_fetch_match_series.py
+│   ├── 07_fetch_played_maps.py
+│   ├── 08_fetch_tournament_placements.py
+│   ├── 09_fetch_player_map_stats.py
+│   │
+│   └── main_pipeline.py    # Orchestrates the execution of the fetching scripts
+│
+├── .gitignore              # To ignore files like __pycache__, .env, config.py, venv (Virtual Environment)
+├── config-template.py      # Main configuration file (API keys, DB creds) - at the root for easy access
+├── LICENSE                 # Open source license
+├── README.md               # Main project README with overview, setup, usage
+└── requirements.txt        # Lists Python package dependencies (e.g., requests, psycopg2-binary)
