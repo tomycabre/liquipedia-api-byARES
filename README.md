@@ -3,14 +3,14 @@ Analytics &amp; Rankings for Esports
 
 ## Table of Contents
 - [Introduction](#introduction)
-- Data Description
-- Data Files
-- Features
-- Installation
-- Usage
-- Results
-- Contributing
-- License
+- [Data Description](#data-description)
+- [Data Files](#data-files)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
 ARES is a project that builds a dataset for deep esports analysis by fetching and structuring match data and other key statistics from Liquipedia.
