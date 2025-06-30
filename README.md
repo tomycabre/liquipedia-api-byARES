@@ -61,16 +61,26 @@ cd ARES
 ```
 ### Step 2: Virtual Environment Setup
 #### Windows
+```bash
 py -m venv venv
+```
 #### macOS/Linux
+```bash
 python3 -m venv venv
+```
 
 ### Step 3: Install Required Packages
+```bash
 pip install -r requirements.txt
+```
 
 ### Step 4: Configure the Application
+```bash
 1. Rename config-template.py to config.py.
+```
+```bash
 2. Edit config.py to add your Liquipedia API key and, if using a database, your credentials.
+```
 
 ## Usage
 
