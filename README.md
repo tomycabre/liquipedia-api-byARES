@@ -1,6 +1,19 @@
 # ARES
 Analytics &amp; Rankings for Esports
 
+## Table of Contents
+- Introduction
+- Data Description
+- Data Files
+- Features
+- Installation
+- Usage
+- Results
+- Contributing
+- License
+
+ 
+
 
 py -m scripts.lib.api_utils
 py -m scripts.lib.db_utils
