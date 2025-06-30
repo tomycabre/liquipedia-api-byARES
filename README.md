@@ -50,14 +50,15 @@ The project is composed of several scripts that generate specific sets of data. 
 - Python +3.11
 - Pgadmin4 9.4-x64
 ### Packages
-- psycopg2
-- requests
-- And others as listed in requirements.txt.
+- `psycopg2`
+- `requests`
+- And others as listed in `requirements.txt`.
 
 ### Step 1: Clone the Repository
+```bash
 git clone https://github.com/tomycabre/ARES.git
 cd ARES
-
+```
 ### Step 2: Virtual Environment Setup
 #### Windows
 py -m venv venv
