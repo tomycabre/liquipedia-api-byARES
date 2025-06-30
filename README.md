@@ -83,6 +83,49 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+Ensure your PostgreSQL server is running and the database specified in `config.py` has been created.
+### Run the Main Pipeline:
+The `main_pipeline.py` orchestrates the execution of all data-fetching scripts in the correct order.
+```bash
+python -m scripts.main_pipeline
+```
+### Process Overview:
+- Initialization: The process begins with setting up the database tables using the `00_setup_database.py` script.
+- Execution: The main pipeline runs each numbered script sequentially, from fetching games (`01_fetch_games.py`) to player stats (`09_fetch_player_map_stats.py`).
+- Data Cleaning: The `05.1_clean_disbanded_teams.sql` script can be run manually to clean out teams that no longer have active rosters, ensuring data relevance.
+
+## Results
+
+## Contributing
+We welcome contributions! Please open issues or submit pull requests.
+### How to Contribute
+1. Fork the Repository:
+   - Click the 'Fork' button on the repository page.
+2. Clone Your Fork:
+```bash
+git clone https://github.com/your-username/ARES.git
+cd ARES
+```
+3. Create a New Branch:
+```bash
+git checkout -b feature/your_feature_name
+```
+4. Make Changes:
+   - Implement your feature or fix.
+5. Commit Changes:
+```bash
+git commit -am 'Add new feature'
+```
+6. Push to Your Fork:
+```bash
+git push origin feature/your_feature_name
+```
+7. Submit a Pull Request:
+   - Go to the original repository and create a new pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
