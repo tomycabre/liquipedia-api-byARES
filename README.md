@@ -28,15 +28,15 @@ The dataset includes:
 
 ## Data Files
 The project is composed of several scripts that generate specific sets of data. The core utilities and data fetching modules are executed as follows:
-- py -m scripts.lib.api_utils : A library module for handling Liquipedia API v3 interactions. 
-- py -m scripts.lib.db_utils : A library module for managing PostgreSQL database interactions. 
-- py -m scripts.00_setup_database : Initializes the database and creates the necessary tables based on the schema. 
-- py -m scripts.01_fetch_games : Fetches and populates the list of supported games. 
-- py -m scripts.02_fetch_teams : Fetches and stores data for active teams. 
-- py -m scripts.03_fetch_players : Fetches and stores information about active players. 
-- py -m scripts.04_fetch_tournaments : Fetches and stores details for tournaments. 
-- py -m scripts.05_fetch_team_rosters : Fetches and stores active team rosters.
-- py -m scripts.06_fetch_match_series : Fetches and stores data for completed match series.
+- `py -m scripts.lib.api_utils : A library module for handling Liquipedia API v3 interactions.`  
+- `py -m scripts.lib.db_utils : A library module for managing PostgreSQL database interactions.` 
+- `py -m scripts.00_setup_database : Initializes the database and creates the necessary tables based on the schema.` 
+- `py -m scripts.01_fetch_games : Fetches and populates the list of supported games.` 
+- `py -m scripts.02_fetch_teams : Fetches and stores data for active teams.` 
+- `py -m scripts.03_fetch_players : Fetches and stores information about active players.` 
+- `py -m scripts.04_fetch_tournaments : Fetches and stores details for tournaments.` 
+- `py -m scripts.05_fetch_team_rosters : Fetches and stores active team rosters.`
+- `py -m scripts.06_fetch_match_series : Fetches and stores data for completed match series.`
 
 ## Features
 - Automated Data Fetching: Scripts to pull data from the Liquipedia API for various esports titles.
