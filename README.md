@@ -2,7 +2,7 @@
 Analytics &amp; Rankings for Esports
 
 ## Table of Contents
-- Introduction
+- [Introduction](##introduction)
 - Data Description
 - Data Files
 - Features
