@@ -94,8 +94,6 @@ python -m scripts.main_pipeline
 - Execution: The main pipeline runs each numbered script sequentially, from fetching games (`01_fetch_games.py`) to player stats (`09_fetch_player_map_stats.py`).
 - Data Cleaning: The `05.1_clean_disbanded_teams.sql` script can be run manually to clean out teams that no longer have active rosters, ensuring data relevance.
 
-## Results
-
 ## Contributing
 We welcome contributions! Please open issues or submit pull requests.
 ### How to Contribute
