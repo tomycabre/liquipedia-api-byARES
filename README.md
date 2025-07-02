@@ -1,4 +1,4 @@
-# ARES
+# Liquipedia API by ARES
 Analytics &amp; Rankings for Esports
 
 ## Table of Contents
@@ -13,7 +13,7 @@ Analytics &amp; Rankings for Esports
 - [License](#license)
 
 ## Introduction
-ARES is a project that builds a dataset for deep esports analysis by fetching and structuring match data and other key statistics from Liquipedia.
+Liquipedia API by ARES is a project that builds a dataset for deep esports analysis by fetching and structuring match data and other key statistics from the Liquipedia API. This tool facilitates fetching data by the click of a button.
 
 ## Data Description
 This project dynamically fetches data from the Liquipedia API and populates a PostgreSQL database. The collected data encompasses multiple facets of the esports ecosystem for supported games like Counter-Strike 2 and Valorant.
@@ -27,7 +27,7 @@ The dataset includes:
 - Roster Information: Active player rosters for each team, detailing join dates and roles.
 
 ## Data Files
-The project is composed of several scripts that generate specific sets of data. The core utilities and data fetching modules are executed as follows:
+The project comprises several scripts that generate specific sets of data. The core utilities and data fetching modules are executed as follows:
 - `py -m scripts.lib.api_utils` : A library module for handling Liquipedia API v3 interactions. 
 - `py -m scripts.lib.db_utils` : A library module for managing PostgreSQL database interactions. 
 - `py -m scripts.00_setup_database` : Initializes the database and creates the necessary tables based on the schema. 
@@ -56,7 +56,7 @@ The project is composed of several scripts that generate specific sets of data. 
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/tomycabre/ARES.git
+git clone https://github.com/tomycabre/liquipedia-api-byARES.git
 cd ARES
 ```
 ### Step 2: Virtual Environment Setup
@@ -101,7 +101,7 @@ We welcome contributions! Please open issues or submit pull requests.
    - Click the 'Fork' button on the repository page.
 2. Clone Your Fork:
 ```bash
-git clone https://github.com/your-username/ARES.git
+git clone https://github.com/your-username/liquipedia-api-byARES.git
 cd ARES
 ```
 3. Create a New Branch:
